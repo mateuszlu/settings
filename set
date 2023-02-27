@@ -1,0 +1,63 @@
+{
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00bfff",
+		"editorBracketHighlight.foreground4": "#7cfc00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	},
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.BracketSameLine": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+	"explorer.confirmDragAndDrop": false,
+	"editor.wordWrap": "on",
+	"breadcrumbs.enabled": false,
+	"editor.linkedEditing": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.cursorBlinking": "expand",
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl"
+	},
+
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "~/../css"
+		}
+	],
+	"liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+	"liveServer.settings.CustomBrowser": "chrome",
+	"debug.javascript.resourceRequestOptions": {},
+	"scm.alwaysShowRepositories": true,
+	"editor.codeActionsOnSave": {},
+	"emmet.triggerExpansionOnTab": true,
+	"files.associations": {
+		"*.kit": "html"
+	},
+	"editor.rulers": [],
+	"emmet.includeLanguages": {
+		"javascript": "javascript"
+	},
+	"emmet.preferences": {},
+	// "editor.language.colorizedBracketPairs": [],
+	// "editor.guides.bracketPairs": true,
+	"workbench.colorTheme": "Tokyo Night Storm"
+}
